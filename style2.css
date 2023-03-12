@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background: linear-gradient(#3b1055,#7597de);
+}
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 750;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active{
+    background: white;
+    color: #2b1055;
+}
+
 body{
     background: linear-gradient(#124579, #6b90bb) fixed;
     background-size:cover;
@@ -6,4 +64,21 @@ body{
 .eula_chr{
     position: absolute;
     right: 700px;
+    top:100px;
 }
+
+.art_img img{
+    width: 120px;
+    height: 120px;
+    margin-left: 50em;
+    margin-top: 50px;
+}
+
+.container{
+    display: grid;
+    gap: 20px;
+    height: 100vh;
+    grid-template-rows: 200px auto 100px;
+    margin-top: 17em;
+}
+
