@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(#124579, #6b90bb) fixed;
+    background-size:cover;
+}
+
+.eula_chr{
+    position: absolute;
+    right: 700px;
+}
