@@ -141,3 +141,9 @@ p{
     font-size: 1.5em;
     color: white;
 }
+
+#player{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
