@@ -93,3 +93,51 @@ button{
     align-items: center;
     z-index: 10000;
 }
+
+.frog p{
+    text-align: center;
+}
+.frog{
+    max-width: 200px;
+}
+
+.card-container p{
+    text-align: center;
+}
+.card-container{
+    max-width: 70px;
+}
+
+table{
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #3568a1;
+    border:5px solid #2d5680;
+    border-radius: 20px;
+    margin-left: 100px;
+
+}
+
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 100px;
+}
+
+.sec{
+    font-size: 1em;
+    color: white;
+}
+
+tr{
+    font-size: 1.5em;
+}
+th{
+    background: #4072a9;
+}
+p{
+    font-size: 1.5em;
+    color: white;
+}
